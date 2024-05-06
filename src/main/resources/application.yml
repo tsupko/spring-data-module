@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-data
+  datasource:
+    generate-unique-name: false
+  h2:
+    console:
+      enabled: true
