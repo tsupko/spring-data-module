@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-data
+  datasource:
+    generate-unique-name: false
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      hibernate.highlight_sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2
